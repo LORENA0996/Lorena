@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@id/idTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Registro de Proveedores"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/idLabelNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="47dp"
+        android:text="@string/txt_Nombres"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/idTextTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="420dp"
+        android:text="989951446"/>
+
+    <TextView
+        android:id="@+id/idLabelTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="389dp"
+        android:text="@string/txt_Telefono"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:id="@+id/idTextCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="512dp"
+        android:text="steff.lore0996@gmail.com"/>
+
+    <TextView
+        android:id="@+id/idLabelCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="482dp"
+        android:text="@string/txt_correo"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/idLabelApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_apellido"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="125dp"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/idLabelDni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="213dp"
+        android:text="@string/txt_dni"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/idLabelDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="299dp"
+        android:text="@string/txt_direccion"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/idLabelPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="569dp"
+        android:text="@string/txt_pais"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="671dp"
+        android:text="Enviar"/>
+
+    <EditText
+        android:id="@+id/idTextPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Perú"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+    <EditText
+        android:id="@+id/idTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mijael Brajhan"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="70dp"
+        />
+
+    <EditText
+        android:id="@+id/idTextApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Goyzueta Llanque"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="152dp"
+       />
+
+    <EditText
+        android:id="@+id/idTextDni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="242dp"
+        android:hint="76203970"/>
+
+    <EditText
+        android:id="@+id/idTextDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="329dp"
+        android:text="Calle los pacaes 1022"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
